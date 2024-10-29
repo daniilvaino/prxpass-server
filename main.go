@@ -33,8 +33,8 @@ func init() {
 }
 
 func main() {
-	isHTTP := flag.Bool("http", true, "Use HTTP")
-	isTCP := flag.Bool("tcp", false, "Use TCP")
+	isHTTP := flag.Bool("http", false, "Use HTTP")
+	isTCP := flag.Bool("tcp", true, "Use TCP")
 
 	var (
 		serverAddress string
